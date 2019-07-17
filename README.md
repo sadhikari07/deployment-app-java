@@ -15,7 +15,7 @@
 - Select get started or Create new Application.
 - Give your app a name, choose region, select platform (JAVA), select sample application and click create.
 
-### Your app on intellij:
+### Your app on Locally:
 - Update your gitignore
 ![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-java/master/assets/gitignore.png) 
 - Create a Procfile (text file) with following line of code: web: java -jar build/libs/application.jar
