@@ -17,7 +17,7 @@
 
 ### Your app on intellij:
 - Update your gitignore
-![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenOne.png) 
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-java/master/assets/gitignore.png) 
 - Create a Procfile (text file) with following line of code: web: java -jar build/libs/application.jar
 - Add following line of code to your build.gradle: bootJar { archiveFileName = 'application.jar' }
 
@@ -36,9 +36,28 @@
 - Choose deploy provider (Elastic Beanstalk), and choose the region, application name, and environment name(should auto-populate), and click next.
 ![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenSix.png)
 - Click create pipeline.
-![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenEight.png)
 
-## 
+## Creating test stage
+- On your pipeline, click edit on top left corner.
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenSix.png)
+- Click on Add stage
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenSix.png)
+- Give your stage a name
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenSix.png)
+- Click Add Action Group
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenSix.png)
+- Specify action name and provider(AWS codeBuild).
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenSix.png)
+- Select default for input artifact, select project name from codeBuild (Steps mentioned below), and click done.
+
+## Creating project in codeBuild
+- On codebuild console, create project.
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenSix.png)
+- Give your project a name
+- Select no source for source provider
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenSix.png)
+- Select your operating system, select new service role, and accept all default selections, and create build project.
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenSix.png)
 
 
 
