@@ -11,7 +11,7 @@ public class HelloWorldController {
     // specify the route (method and path) for this method
     @GetMapping("/")
     public String getHelloWorld() {
-        return "Hello, world! It's a horrible day!";
+        return "Hello, world! Is this even a day?";
     }
 
     @GetMapping("/hello/{name}/{from}")
