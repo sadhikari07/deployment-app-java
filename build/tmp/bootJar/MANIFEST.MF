@@ -1,8 +1,2 @@
 Manifest-Version: 1.0
-Start-Class: com.ferreirae.code401d4.day12.firstWebApp.FirstWebAppAppl
- ication
-Spring-Boot-Classes: BOOT-INF/classes/
-Spring-Boot-Lib: BOOT-INF/lib/
-Spring-Boot-Version: 2.1.5.RELEASE
-Main-Class: org.springframework.boot.loader.JarLauncher
 
