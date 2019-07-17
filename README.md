@@ -53,12 +53,12 @@
 
 ## Creating project in codeBuild
 - On codebuild console, create project.
-![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenSix.png)
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-java/master/assets/createCodeBuild.png)
 - Give your project a name
 - Select no source for source provider
-![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenSix.png)
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-java/master/assets/codeBuildConfig.png)
 - Select your operating system, select new service role, and accept all default selections, and create build project.
-![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenSix.png)
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-java/master/assets/codeBuildCreate.png)
 
 
 
@@ -66,8 +66,10 @@
 
 ## Screenshots of pipeline updating after change in the master of the repo and once update is complete: 
 
-![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/screen15.png)
-![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/screen16.png)
+- Running ElasticBeanstalk:
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-java/master/assets/runningEBstalk.png)
+- Running Pipeline with test:
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-java/master/assets/runningPipeline.png)
 
 
 -Additional Screens located in assets. 
