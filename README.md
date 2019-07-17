@@ -39,16 +39,18 @@
 
 ## Creating test stage
 - On your pipeline, click edit on top left corner.
-![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenSix.png)
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-java/master/assets/editPipeline.png)
 - Click on Add stage
-![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenSix.png)
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-java/master/assets/addStage.png)
 - Give your stage a name
-![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenSix.png)
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-java/master/assets/stageName.png)
 - Click Add Action Group
-![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenSix.png)
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-java/master/assets/addActionGroup.png)
 - Specify action name and provider(AWS codeBuild).
-![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenSix.png)
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-java/master/assets/provideActionDetails.png)
 - Select default for input artifact, select project name from codeBuild (Steps mentioned below), and click done.
+![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-java/master/assets/varifytest.png)
+
 
 ## Creating project in codeBuild
 - On codebuild console, create project.
