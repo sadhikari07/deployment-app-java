@@ -25,7 +25,6 @@
 - On your AWS CodePipeline console click create pipeline.
 ![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenOne.png) 
 - Choose a pipeline name, select new service role and click next.
-![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenTwo.png)
 - Choose source provider (gitHub) and connect to gitHub by providing your credentials.
 ![Screen Screen](https://raw.githubusercontent.com/sadhikari07/deployment-app-php/master/assets/ScreenThree.png)
 - Choose the repository and the branch (master) that you want to deploy.
